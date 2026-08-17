@@ -1,0 +1,13 @@
+Analisi Matematica 2
+Studio dei limiti e integrali definiti
+
+Calcolo del limite notevole
+Data la funzione f(x) = sin(x)/x
+Il limite per x che tende a 0 di f(x) vale 1
+
+Studio di una funzione fratta
+Data la funzione f(x) = (x^2 - 1)/(x + 1)
+La sua derivata prima è f'(x) = 2x/(x+1)^2
+
+Calcolo di un integrale immediato
+L'integrale di 1/x dx = ln|x| + C

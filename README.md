@@ -1,20 +1,19 @@
 # Obsidian Math Note Formatter
 
-Utility in Java per la conversione e formattazione automatica di appunti matematici grezzi (.txt) in file Markdown (.md) ottimizzati per il rendering LaTeX in Obsidian.
+A Java utility for the automatic conversion and formatting of raw mathematical notes (.txt) into Markdown files (.md) optimized for LaTeX rendering in Obsidian.
 
-## Funzionalità
-- Conversione automatica di titoli in sintassi Markdown (`#`, `###`).
-- Riconoscimento intelligente delle formule e incapsulamento in blocchi LaTeX (`$$`).
-- Mappatura dinamica del testo descrittivo e dei suffissi tramite `\text{}`.
-- Conversione automatica delle frazioni e gestione degli esponenti.
-- Validazione e correzione automatica dell'estensione del file di output.
-- Supporto avanzato per il riconoscimento di limiti e integrali definiti.
+## Features
+- Automatic conversion of titles into Markdown syntax (`#`, `###`).
+- Smart recognition of formulas and encapsulation within LaTeX blocks (`$$`).
+- Dynamic mapping of descriptive text and suffixes using `\text{}`.
+- Automatic conversion of fractions and exponent handling.
+- Automatic validation and correction of the output file extension.
+- Advanced support for recognizing limits and definite integrals.
 
-## Requisiti
-- Java JDK 8 o superiore.
+## Requirements
+- Java JDK 8 or higher.
 
-## Utilizzo
-Eseguire il programma da terminale passando i parametri:
+## Usage
+Run the program from the terminal by passing the following parameters:
 ```bash
-java -jar ObsidianFormatter.jar input_appunti.txt appunti_formattati.md
-```
+java -jar ObsidianFormatter.jar input_notes.txt formatted_notes.md
